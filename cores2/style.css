@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+* {/*configuração GLOBAL da CSS*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body {
+    /*background-color: #B2BEBF;*/
+    background-image:linear-gradient(to right, #085454 50%, rgb(255, 179, 13) 80%);/*degradê*/
+    text-align: justify;
+    
+}
+
+main, form {
+    background-color: white/*ou #ffff*/;
+    width: 600px;/*largura*/
+    padding: 10px;/*espacinho entre a borda e o texto*/
+    margin: auto; /*centraliza no meio automaticamente*/
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #265d5d;/*sombra ao redor do main*/
+    text-indent: 25px; /*Espaçamento da primeira linha do parágrafo*/
+    
+}
+
+h1{
+    color: #0f2a64;
+    text-align: center;
+    text-shadow:1px 1px 2px white;
+}
+
+h2 {
+    color: #8a1c1ed3;
+    text-align: left;
+}
+
+h2#principal {/*utilizado quando quiser formatar apenas um ítem que igual a vários*/
+    background-color: #0f2a64;
+    color: white;
+    text-align: center;
+    text-shadow:1px 1px 2px #161f358b;
+}
+
+p {
+    color: #8a1c1ed3;
+    text-align: left;
+}

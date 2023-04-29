@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1 id="principal">Cadastro</h1>
+    <Section class="dados">
+        <form action="cad.php" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="idnome">
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="idemail"><br>
+        <input type="submit" value="Enviar"><hr>
+        </form>
+    </Section>
+    <picture>
+        <source media="(max-width: 150px)" srcset="estudo-livro-p.png" type="image/png">
+        <source media="(max-width: 300px)" srcset="estudo-livro-m.png" type="image/png">
+        <img src="imagens/estudo-livro.png" alt="livrog">
+        <!--permite que as imagens atualizem para ficar compatível com qualquer dispositivo.. estudar mais-->
+    </picture>
+    <!--<img src="https://cdn-icons-png.flaticon.com/512/45/45825.png?w=740&t=st=1680888922~exp=1680889522~hmac=9eb7d2a117b97abaf082d68e75baa0703caee8e4d9bdf5d38ac14ac26d5aa669" alt="livro_historia">inserindoa mesma imagem pela url-->
+</body>
+</html>

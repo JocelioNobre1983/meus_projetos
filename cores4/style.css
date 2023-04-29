@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+*{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #053D38;/*cor da fonte*/
+    font-size: 19px;
+    
+}
+
+body {
+    /*O backgroud-image: radial-gradient - permite colocar gradiente em circulo e determinar porcentagens das cores
+    background-image: radial-gradient(circle, #f269006e, #34675cb7 40%,#f26900c8 70%, #ffff00d0 100%);*/
+    background-image: linear-gradient(90deg, #f269006e, #34675cb7,#f26900c8, rgba(255, 255, 0, 0.814) ); /*possibilita colocar cores combinadas/degradê. usa-se o backgroud0-imagem porque o grandiente é considerado imagem. o "deg significa graus, inclusive negavito, e podem ser colocadas varias cores*/
+    text-align: justify;
+    background-position: center center;
+}
+
+main, div, section {
+    max-width: 700px;
+    background-color: white;
+    align-items: center center;
+    width: 600px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+    height: 600px;
+    box-shadow: 8px 8px 15px #1f544885;
+    
+}
+
+#principal {/*poderá ser configurado apenas 1 id, diferentemente de classe que poderá ser configurado mais de uma*/
+    background-color: #ffffff00;
+    color: #0b372d8a;
+    text-shadow:2px 2px 3px #228880;/*sombra da font*/
+    font-size: 60px;/*tamanho da fonte*/
+    text-align: center;
+}
+
+h1  {
+    text-align: center;
+    background-color: #F26800;
+    color: white;
+    /*box-shadow: #053D38 5px 5px 5px; /*aplicar sombra e os pixels direciona a sombra sendo o último o espaçamento*/
+    /*height: 60px;*/
+    /*width: 100%;/*largura*/
+    border-radius: 10px;/*arredonda as bordas*/
+    text-align: center center;
+    font-size:40px;
+    /*padding: 0px;*/
+}
+
+h2 {
+    text-align: center;
+    text-decoration:underline;/*sublinhar*/
+}
+
+p {
+    text-indent: 25px;/*espaçamento inicial do parágrafo*/
+    
+}
+
+.dados {
+    height: 150px;
+    width: 260px;
+    background-color: #c8b063af;
+
+}
+.cadastro {
+    height: 100px;
+    width: 500px;
+    text-align: justify;
+}
+
+.pagina2 {
+    height: 800px;
+    width: 750px;
+}
+
+.pagina3 {
+    width: 700px;
+    height: 930px;
+}
+
+form label
+{
+    display: block;
+    width: fit-content;
+    font-size: 0.8em;
+    font-weight: 100;
+    background-color: #bb793fc8;
+    padding: 3px 7px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border-bottom: 2px;
+    border-radius: 5px;/*arredondando as bordas do label em 5px*/
+    color: white;/*cor da font no label*/
+    
+}
+
+a:hover {/*hover é uma pseudoclasse que permite a mudança da cor quando passa o cursor por cima e pode ser atribuida a <div>, <a>, <nav> e etc...*/   
+    color: #000000;
+    text-decoration: underline;/*sublinhar texto*/
+}
+
+a {
+    
+    text-decoration: none;/*eliminação de formatação e colocação.. ex tirar ou colocar sublinhado de link*/
+    font-weight: bold;/*negrito dentre outras*/
+    
+}
+
+.a1, .a2, .a3 {
+    padding: 15px;
+}
+
+nav {
+    text-align: center;
+
+    
+}
+img {
+    display: block; /*convertendo um inline leval em bloco para que o margim:auto funcione com o img*/ 
+    margin: auto;
+}
